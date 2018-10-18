@@ -1,0 +1,19 @@
+/*
+Theme name: adminy
+Author: Камиль Абзалов
+Description: моя первая тема Wordpress
+*/
+
+body {
+    padding-top: 54px;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+
+.textWidget.card-body {
+  padding-bottom: 0;
+}
