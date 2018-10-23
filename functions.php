@@ -3,6 +3,7 @@
 require 'inc/categories-widget.php';
 require 'inc/text-widget.php';
 
+// атрибуты для миниатюры
 $default_attr = array(
 	'class' => "card-img-top",
 );
