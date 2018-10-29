@@ -23,6 +23,6 @@
         } ?>
 </div>
 <div class="col-md-4">
-<?php dynamic_sidebar('right-sidebar'); ?>
+<?php dynamic_sidebar('right-sidebar'); // название (id) панели ?>
 </div>
 <?php get_footer(); ?>
