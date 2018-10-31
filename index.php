@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div class="col-md-8">
+    <section>
     <h1 class="my-4"><?php echo esc_html( get_option( 'mainHeader', '' ) );?>
         <small><?php echo esc_html( get_option( 'secondaryHeader', '' ) );?></small>
     </h1>
@@ -21,8 +22,11 @@
             </div>
             <?php }
         } ?>
+    </section>
 </div>
 <div class="col-md-4">
+<aside>
 <?php dynamic_sidebar('right-sidebar'); // название (id) панели ?>
+</aside>
 </div>
 <?php get_footer(); ?>
