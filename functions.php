@@ -84,8 +84,8 @@ register_nav_menu('main-menu','Главное меню');
 add_action('admin_init', 'getHeaderText');
 
 function getHeaderText() {
-    register_setting('general', 'mainHeader', 'sanitize_text_field');
-    register_setting('general', 'secondaryHeader', 'sanitize_text_field');
+    register_setting('general', 'mainHeader');
+    register_setting('general', 'secondaryHeader');
     
     add_settings_field(
         'mainHeader', 
